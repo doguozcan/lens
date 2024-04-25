@@ -1,11 +1,11 @@
-import handleSignOut from "../utils/handleSignOut"
+import ImageUploadForm from "../components/ImageUploadForm"
+import SignOutButton from "../components/SignOutButton"
 
 const Profile = () => {
   return (
-    <div>
-      <button className="btn btn-warning" onClick={handleSignOut}>
-        sign out
-      </button>
+    <div className="p-5">
+      <ImageUploadForm />
+      <SignOutButton />
     </div>
   )
 }
