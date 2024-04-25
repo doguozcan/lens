@@ -11,13 +11,13 @@ export const AuthProvider = ({ children }) => {
   useEffect(() => {
     supabase.auth.getSession().then(({ data: { session } }) => {
       setSession(session)
-      setUser(session.user)
+      setUser(session?.user) // null check
       setLoading(false)
     })
 
     const { data } = supabase.auth.onAuthStateChange((_event, session) => {
       setSession(session)
-      setUser(session.user)
+      setUser(session?.user)
     })
 
     return () => {
