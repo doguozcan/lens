@@ -5,6 +5,7 @@
 lens is a full-stack photo gallery app where users can upload and view images. This project is built in order to practice my basic PostgreSQL and Supabase skills. User can authenticate to the system by OTPs (One-time passwords) and sign out securely.
 
 ## Screenshots
+
 ![login](https://github.com/doguozcan/lens/assets/76822280/2899d661-6ae3-4887-9a9a-9d51cd9e398e)
 ![home](https://github.com/doguozcan/lens/assets/76822280/8a6298e8-9ea5-46f3-a422-1f21484c337c)
 ![profile](https://github.com/doguozcan/lens/assets/76822280/5b276f29-1fe3-4a4c-bfc5-fdad175b97f0)
