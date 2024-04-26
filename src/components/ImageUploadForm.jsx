@@ -17,21 +17,23 @@ const ImageUploadForm = () => {
   }
 
   return (
-    <>
-      <input
-        type="file"
-        multiple
-        className="file-input file-input-primary file-input-sm"
-        onChange={handleFileChange}
-      />
-      <button
-        className="btn btn-success btn-sm"
-        onClick={handleSubmitImages}
-        disabled={uploading}
-      >
-        upload image
-      </button>
-    </>
+    <div className="flex justify-center">
+      <div className="flex flex-col w-full max-w-sm gap-2">
+        <input
+          type="file"
+          multiple
+          className="file-input file-input-primary file-input-sm"
+          onChange={handleFileChange}
+        />
+        <button
+          className="btn btn-success text-white btn-sm"
+          onClick={handleSubmitImages}
+          disabled={uploading}
+        >
+          upload image
+        </button>
+      </div>
+    </div>
   )
 }
 export default ImageUploadForm
