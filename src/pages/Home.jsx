@@ -26,7 +26,7 @@ const Home = () => {
   const fetchImagesFromAFolder = async (folderName) => {
     const { data, error } = await supabase.storage
       .from("images")
-      .list(folderName)
+      .list(folderName, { sortBy: { column: "created_at", order: "desc" } })
 
     if (error) {
       console.log(error)

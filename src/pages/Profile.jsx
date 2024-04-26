@@ -1,4 +1,3 @@
-import ImageUploadForm from "../components/ImageUploadForm"
 import SignOutButton from "../components/SignOutButton"
 import Images from "../components/Images"
 
@@ -10,7 +9,6 @@ const Profile = () => {
         been contributed by{" "}
         <span className="text-primary animate-pulse">yourself</span>
       </p>
-      <ImageUploadForm />
       <Images />
       <p className="text-sm text-center">
         you can <span className="text-error animate-pulse">delete</span> your
