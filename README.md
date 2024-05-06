@@ -26,4 +26,4 @@ lens is a full-stack photo gallery app where users can upload and view images. T
 
 ## Live Preview
 
-- You can visit <a href="https://reliable-semolina-9ce3d8.netlify.app/">the live preview</a>
+- You can visit <a href="https://sparkling-chaja-cdcc9f.netlify.app/">the live preview</a>
